@@ -1,0 +1,27 @@
+{
+  "name": "adbase-proj",
+  "version": "0.0.1",
+  "description": "Codekrieg's yellow pages online project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeKrieg/adbase.git"
+  },
+  "author": "CodeKrieg (Paul Badarau & Himanshu Patel)",
+  "license": "SEE LICENSE IN README",
+  "bugs": {
+    "url": "https://github.com/CodeKrieg/adbase/issues"
+  },
+  "homepage": "https://github.com/CodeKrieg/adbase#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.0.1",
+    "mongoose": "^4.5.3",
+    "morgan": "^1.7.0"
+  }
+}

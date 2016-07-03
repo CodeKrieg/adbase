@@ -36,9 +36,8 @@ mongoose.connect(config.database);
 app.use(express.static(__dirname + '/public'));
 
 
-// API ROUTES ==================================================================
-var apiRoutes = require('./app/routes/api')(app, express);
-app.use('/api', apiRoutes);
+// ROUTES ======================================================================
+require('./app/routes/index')(app);
 
 // main catchall route that sends users to front-end angular
 app.get('*', function(req, res) {
